@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Create React App 2",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "task": "Complete CSS course soon",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "task": "Buy Tea",
+      "checked": false
+    }
+  ]
+}

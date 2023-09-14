@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin : 0;
+  padding : 0.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-size : 1.2rem;
+  width: 50%;
+  margin-left: 25%;
+  border: 3px solid brown;
+  border-radius: 5%;
 }
+
+header{
+  margin-bottom: 25px;
+  text-align: center;
+  background-color: rgb(255, 224, 183);
+}
+
+li{
+  list-style: none;
+  margin : 0;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+input[type="checkbox"]{
+  margin-right: 5px ;
+}
+
+ul{
+  padding-left: 0;
+}
+
+input, button {
+  font-size : inherit;
+}
+
+.input{
+  margin-right : 1.5ch;
+}
+
+.checkbox {
+  margin-right : 0.5rem;
+}
+
+.editbtn, .deletebtn{
+  margin : 0 0.2rem
+
+}
+
+.deletebtn{
+  background-color: grey;
+  color : whitesmoke;
+}
+
+.deletebtn:hover{
+  background-color: red;
+  color : white;
+}
+
+.editbtn{
+  background-color: rgb(245, 200, 200);
+  color : purple;
+  
+}
+
+.editbtn:hover{
+  background-color: lightgreen;
+  color : darkblue;
+}
+
+input{
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.btnSize{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.addBtn{
+  background-color: aqua;
+  color : black;
+}
+.addBtn:hover{
+  background-color: green;
+  color : white;
+}
+
+.updateBtn{
+  background-color: aqua;
+  color : black;
+  font-size: 1rem;
+  margin-right: 0.2rem;
+}
+
+.updateBtn:hover{
+  background-color: green;
+  color : white;
+}
+
+.cancelBtn{
+  background-color: brown;
+  color : yellow
+}
+
+.cancelBtn:hover{
+  background-color: red;
+  color : white;
+}
+
+li{
+  background-color: rgb(236, 236, 190);
+  margin-bottom: 0.2rem;
+}
+
+.btnDiv{
+  display: inline-block;
+}
+
+.app{
+  background-color: beige;
+}
+
